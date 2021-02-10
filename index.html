@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Slider</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="slider">
+            <div>
+                <h2 class="reviews-title">Отзывы выпускников</h2>
+                <img class="reviews-image" srcset="./img/Ellipse8@1x.jpg 1x, ./img/Ellipse8@2x.jpg 2x"
+                    src="./img/Ellipse8@1x.jpg" alt="Выпускница Лиза">
+                <a href="">
+                    <svg class="reviews-svg" width="30" height="30">
+                        <use href="./images/spryite-footer.svg#icon-facebook">
+                        </use>
+                    </svg>
+                </a>
+                <div>
+                    <h3 class="reviews-subtitle">Тоня Кучеровская</h3>
+                    <p class="reviews-slogan">Выпуск 2015-го года, Національний університет біоресурсів
+                        і природокористування України</p>
+                    <p class="reviews-excerpt">За короткий час занять з Оленою я опанувала граматику і поповнила свій
+                        зовсім
+                        пустий словниковий запас. З першого ж заняття я зрозуміла, що знаходжуся у своїй тарілці. Ми з
+                        Оленою
+                        стали друзями, тому що її справді хвилювала моя успішність. Вона стала для мене авторитетом,
+                        проте я
+                        не
+                        тремтіла на уроках, маючи страх зробити найменшу помилку. Зараз я можу похизуватись тим, що я
+                        студен
+                        ...
+                        <a class="reviews-quote" href="">Читать дальше</a>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <h2 class="reviews-title">Отзывы выпускников</h2>
+                <img class="reviews-image" srcset="./img/Ellipse8@1x.jpg 1x, ./img/Ellipse8@2x.jpg 2x"
+                    src="./img/Ellipse8@1x.jpg" alt="Выпускница Лиза">
+                <a href="">
+                    <svg class="reviews-svg" width="30" height="30">
+                        <use href="./images/spryite-footer.svg#icon-facebook">
+                        </use>
+                    </svg>
+                </a>
+                <h3 class="reviews-subtitle">Тоня Кучеровская</h3>
+                <p class="reviews-slogan">Выпуск 2015-го года, Національний університет біоресурсів
+                    і природокористування України</p>
+                <p class="reviews-excerpt">За короткий час занять з Оленою я опанувала граматику і поповнила свій
+                    зовсім
+                    пустий словниковий запас. З першого ж заняття я зрозуміла, що знаходжуся у своїй тарілці. Ми з
+                    Оленою
+                    стали друзями, тому що її справді хвилювала моя успішність. Вона стала для мене авторитетом,
+                    проте я
+                    не
+                    тремтіла на уроках, маючи страх зробити найменшу помилку. Зараз я можу похизуватись тим, що я
+                    студен
+                    ...
+                    <a class="reviews-quote" href="">Читать дальше</a>
+                </p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+        $('.slider').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+        });
+    </script>
+</body>
+
+</html>
